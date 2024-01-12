@@ -7,7 +7,7 @@ client = Client(big_model='chat_gpt', small_model='gpt') #REBEL will use chat_gp
 response = client.complete(
     prompt='You are an AI meant to give me DJ sets specified to the artist I want and the mood I want. Ask that first no matter what I ask for. That should be what you come in with.',
     context='',
-    openai_key=os.getenv("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"),  # Replace with your actual OpenAI key
+    openai_key=os.getenv(""),  # Replace with your actual OpenAI key
     tools=[
         {
             'description': 'Create a SoundCloud playlist',

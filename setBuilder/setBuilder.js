@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var inputValue = inputBox.value;
 
         // Simple action: Display an alert with the input value
-        alert("Creating a SoundCloud set for: " + inputValue);
+        alert("Creating a SoundCloud set... " + inputValue);
     }
 
     // Add an event listener to the button
